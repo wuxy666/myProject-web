@@ -1,0 +1,28 @@
+{
+  "name": "myproject-web",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview",
+    "type-check": "vue-tsc -b"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.3.1",
+    "axios": "^1.20.0",
+    "echarts": "^5.5.1",
+    "element-plus": "^2.7.8",
+    "vue": "^3.4.38"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.6.2",
+    "less": "^4.9.1",
+    "less-loader": "^13.0.0",
+    "sass": "^1.105.1",
+    "typescript": "~5.3.3",
+    "vite": "^4.5.14",
+    "vue-tsc": "^1.8.27"
+  }
+}
