@@ -2,7 +2,10 @@
 import { createApp } from 'vue'
 import ElementPlus from 'element-plus'
 import 'element-plus/dist/index.css'
+import './style.css'
 // 引入根组件
 import App from './App.vue'
+import router from './router'
+import { pinia } from './stores'
 // 创建应用并挂载
-createApp(App).use(ElementPlus).mount('#app')
+createApp(App).use(pinia).use(router).use(ElementPlus).mount('#app')
